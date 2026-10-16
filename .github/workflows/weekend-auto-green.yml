@@ -28,6 +28,6 @@ jobs:
           COMMIT_MESSAGE: ${{ inputs.message || 'chore: weekend contribution' }}
         run: |
           git config user.name "MountCoder-merry"
-          git config user.email "MountCoder-merry@users.noreply.github.com"
+          git config user.email "214944524+MountCoder-merry@users.noreply.github.com"
           git commit --allow-empty -m "$COMMIT_MESSAGE"
           git push origin HEAD:main
